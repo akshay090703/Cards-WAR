@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>War</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6e3a10eefb.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/diamond-solid.svg">
+</head>
+
+<body>
+    <div class="top">
+        <button id="new-deck">New Deck</button>
+        <p id="remaining-cards"></p>
+    </div>
+    <h2 id="header">Game Of War</h2>
+    <div class="cards-container" id="cards-container">
+        <h3>Computer Score: <span id="computer-score">0</span></h3>
+        <div class="card-slot"></div>
+        <div class="card-slot"></div>
+        <h3>Your Score: <span id="user-score">0</span></h3>
+    </div>
+    <button id="draw-cards" class="draw">Draw</button>
+</body>
+<script src="app.js"></script>
+
+</html>
